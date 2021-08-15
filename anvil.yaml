@@ -1,0 +1,30 @@
+dependencies: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
+package_name: DataGridtutorial3
+name: Demo_
+runtime_options: {version: 1, server_version: python2-sandbox, client_version: '2'}
+metadata: {}
+startup_form: Form1
+db_schema:
+- name: employees
+  id: 142183
+  python_name: employees
+  columns:
+    1Zc6vvucaW0=:
+      name: Scores
+      type: string
+      admin_ui: {order: 2, width: 200}
+    KgS5ab6JNSY=:
+      name: Mark
+      type: string
+      admin_ui: {order: 1, width: 200}
+    pLvV05u6T58=:
+      name: Type
+      type: string
+      admin_ui: {order: 0, width: 200}
+  access: {python_name: employees, app_id: LJYYNVH7PCVEULYA, server: full, client: none,
+    table_mapping_name: null, table_mapping_id: null, table_id: 142183}
+renamed: true
